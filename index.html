@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>PBS IoT and Robotics Club </title>
+  <meta property="og:url" content="https://pbscybsec.github.io">
+  <meta property="og:title" content="Presidential CyberSecurity Club">
+  <meta name="og:description" content="Welcome to the PBS CyberSecurity Club. Explore cybersecurity topics and resources with us.">
+  <meta name="keywords" content="cybersecurity, PBS CyberSecurity Club, online security, hacking, information security">
+  <meta property="og:image" content="https://c-d5tp.onrender.com/assets/img/icons/logo.png">
+
+  <!-- Favicons -->
+  <link href="assets/img/logo-scl.svg" rel="icon">
+  <link href="assets/img/logo-scl.svg" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+  <link href="assets/css/main.css" rel="stylesheet">
+  <style>
+    .logo .school-name {
+      font-size: 1.5rem;
+      font-weight: 700;
+      margin-left: 10px;
+      align-self: center;
+      color: #ffffff;
+      text-decoration: none;
+    }
+
+    @media (max-width: 768px) {
+      .logo .school-name {
+        font-size: 1rem;
+      }
+    }
+  </style>
+  <style>
+   
+    .logo img {
+      transition: transform 0.3s ease; 
+    }
+    
+    .logo img:hover {
+      transform: scale(1.8);
+    }
+  
+    .header .container-xl {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    
+    .header .navbar {
+      margin-right: 17px; 
+    }
+    
+    .header .navbar .getstarted.scrollto {
+      margin-left: auto; 
+      padding: 10px 20px;
+    }
+      @media (max-width: 991px) {
+      .header .container-xl {
+        flex-direction: column;
+      }
+      
+      .header .navbar .getstarted.scrollto {
+        margin-left: 0;
+        margin-top: 10px;
+      }
+    }
+    </style>
+  </head>
+<body>
+
+  <header id="header" class="header d-flex align-items-center">
+
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+      <a href="index.html" class="logo d-flex align-items-center">
+       
+        <img src="assets/img/logo-scl.png" alt=""> 
+        
+        <span class="school-name" style="font-size: 1.2em; margin-left: 10px;">Presidential Business School</span> 
+      </a>
+    </div>
+    <nav id="navbar" class="navbar">
+        <ul>
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#why-us">Why Us?</a></li>
+          <li class="dropdown"><a href=""><span>Learning Resources</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+            <ul>
+              <li><a href="learning.html">PDF Books</a></li>
+              <li><a href="videos.html">Videos</a></li>
+              <li><a href="play_ctf.html">Facts</a></li>
+              <li><a href="https://wokwi.com/">Build</a></li>
+            </ul>
+          </li>
+          <li><a href="projects.html">Projects/Events</a></li><li><a href="blog.html">Blog</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a class="getstarted scrollto" href="https://pbscybsec.vercel.app">Login/Register</a></li>
+        </ul>
+      </nav><!-- .navbar -->
+
+      <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+      <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+
+    </div>
+  </header><!-- End Header -->
+  <!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="hero">
+    <div class="container position-relative">
+      <div class="row gy-5" data-aos="fade-in">
+        <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center text-center text-lg-start">
+          <h2>Welcome to the PBS IoT and Robotics Club.</span></h2>
+          <p>Discover, Build, Innovate: The IoT and Robotics Club Journey.</p>
+          <div class="d-flex justify-content-center justify-content-lg-start">
+            <a href="https://tally.so/r/meQd4o" class="btn-get-started">Join Now!</a>
+            <a href="https://github.com/orgs/pbscybsec/discussions/new/choose" class="btn-watch-video d-flex align-items-center"><i class="bi bi-people-fill"></i><span>Discussions</span></a>
+          </div>
+        </div>
+        <div class="col-lg-6 order-1 order-lg-2">
+          <img src="assets/img/hero-img.png" class="img-fluid" alt="" data-aos="zoom-out" data-aos-delay="100">
+        </div>
+      </div>
+    </div>
+
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Robotics Club Icon Boxes with Zoom Effect</title>
+<!-- Include your Bootstrap CSS here -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+<style>
+  .icon-box {
+    transition: transform .3s ease-in-out;
+  }
+
+  .icon-box:hover {
+    transform: scale(1.05);
+  }
+
+  .icon {
+    font-size: 48px; /* Adjust the size of the icons as necessary */
+    color: #333; /* Color of the icons */
+  }
+
+  .title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+
+  /* Add additional styling for your icon boxes here */
+  
+  /* Styles for the AOS animation library if you're using it */
+  [data-aos] {
+    transition: transform .3s ease-in-out, opacity .3s ease-in-out;
+  }
+
+  [data-aos][data-aos][data-aos-delay="100"] {
+    transition-delay: 0.1s;
+  }
+
+  [data-aos][data-aos][data-aos-delay="200"] {
+    transition-delay: 0.2s;
+  }
+
+  [data-aos][data-aos][data-aos-delay="300"] {
+    transition-delay: 0.3s;
+  }
+
+  [data-aos][data-aos][data-aos-delay="400"] {
+    transition-delay: 0.4s;
+  }
+</style>
+</head>
+<body>
+
+<div class="icon-boxes position-relative">
+  <div class="container position-relative">
+    <div class="row gy-4 mt-5">
+
+      <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
+        <div class="icon-box">
+          <div class="icon"><i class="bi bi-cpu"></i></div>
+          <h4 class="title"><a href="#" class="stretched-link">Innovate</a></h4>
+        </div>
+      </div><!-- End Icon Box -->
+
+      <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
+        <div class="icon-box">
+          <div class="icon"><i class="bi bi-tools"></i></div>
+          <h4 class="title"><a href="#" class="stretched-link">Engineer</a></h4>
+        </div>
+      </div><!-- End Icon Box -->
+
+      <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
+        <div class="icon-box">
+          <div class="icon"><i class="bi bi-gear-wide-connected"></i></div>
+          <h4 class="title"><a href="#" class="stretched-link">Build</a></h4>
+        </div>
+      </div><!-- End Icon Box -->
+
+      <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="400">
+        <div class="icon-box">
+          <div class="icon"><i class="bi bi-people"></i></div>
+          <h4 class="title"><a href="#" class="stretched-link">Collaborate</a></h4>
+        </div>
+      </div><!-- End Icon Box -->
+
+    </div>
+  </div>
+</div>
+</section>
+  <!-- End Hero Section -->
+
+  <main id="main">
+  <!-- ======= About Us Section ======= -->
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+        <div class="section-header">
+          <h2>About Us</h2>
+        </div>
+
+       <!-- Start About Robotics Club Section -->
+       <!DOCTYPE html>
+       <html lang="en">
+       <head>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Robotics Club About Section</title>
+       <!-- Add your existing stylesheet links here -->
+       <style>
+         .zoom-hover {
+           transition: transform .2s; /* Animation */
+           margin: 0 auto;
+           display: block;
+         }
+       
+         .zoom-hover:hover {
+           transform: scale(1.1); /* (110% zoom - Feel free to change it) */
+         }
+       </style>
+       </head>
+       <body>
+       
+       <div class="container">
+         <div class="row gy-4">
+           <div class="col-lg-6">
+             <h3 class="display-4 fw-bold text-primary">Engineering Tomorrow's Innovators</h3>
+             
+              <img src="assets/img/about.jpg" class="img-fluid rounded-4 mb-4 shadow zoom-hover" alt="Robotics Club Activities">
+               <p> At the heart of the Presidential Business School's IoT and Robotics Club thrives a community of dedicated students, united by their intense passion for robotics and the innovative realm of automation. Our club is a sanctuary for seasoned experts and novices alike, presenting a spectrum of opportunities to discover, construct, and pioneer.</p>
+            </div>
+           <div class="col-lg-6">
+             <div class="content ps-0 ps-lg-5">
+               <p class="fst-italic">
+                Welcome to the Presidential Business School's IoT and Robotics Club, the hub for those passionate about the interconnected world of the Internet of Things (IoT) and the dynamic field of robotics. Our club is dedicated to fostering a comprehensive knowledge of IoT and robotics, providing our members with the resources to innovate not just in robotics, but in creating intelligent, interconnected systems that are the bedrock of the future.
+               </p>
+               <ul>
+                 <li><i class="bi bi-check-circle-fill"></i>  Discover the intricacies of IoT and robotics.</li>
+                 <li><i class="bi bi-check-circle-fill"></i>  Engage with fellow enthusiasts and experts in the field.</li>
+                 <li><i class="bi bi-check-circle-fill"></i>  Excel in a nurturing and inventive environment.</li>
+               </ul>
+               <p>
+                Explore the convergence of digital and physical worlds through IoT, delve into the complexities of robotic systems, and contribute to groundbreaking initiatives. The PBS IoT and Robotics Club is your gateway to becoming a part of the revolution in global connectivity and automation. Join us and be at the forefront of the IoT and robotics revolution.
+               </p>
+       
+               <div class="position-relative mt-4">
+                 <h4 class="mb-3 text-uppercase text-secondary">Origin of Robotics:</h4>
+                 
+                  <img src="assets/img/about-2.jpg" class="img-fluid rounded-4 shadow zoom-hover" alt="Intro to Robotics">
+                  <a href="https://www.youtube.com/watch?v=uoC2ZGRI8a8" class="glightbox play-btn"></a>
+               </div>   
+             </div>
+           </div>
+         </div>
+       </div>
+     <!-- Add your existing script links here -->
+       
+       </body>
+       </html>
+    <!-- ======= Clients Section ======= -->
+    <section id="clients" class="clients">
+      <div class="container" data-aos="zoom-out">
+
+        <div class="clients-slider swiper">
+          <div class="swiper-wrapper align-items-center">
+            <div class="swiper-slide"><img src="assets/img/clients/client-1.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-2.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-3.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-4.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-5.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-6.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-7.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-8.png" class="img-fluid" alt=""></div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Clients Section -->
+
+    <!-- ======= Stats Counter Section ======= -->
+    <section id="stats-counter" class="stats-counter">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row gy-4 align-items-center">
+
+          <div class="col-lg-6">
+            <img src="assets/img/stats-img.svg" alt="" class="img-fluid">
+          </div>
+
+          <div class="col-lg-6">
+
+            <div class="stats-item d-flex align-items-center">
+              <span data-purecounter-start="0" data-purecounter-end="70" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>Happy Members</strong> of our IoT and Robotics Club.</p>
+            </div><!-- End Stats Item -->
+
+            <div class="stats-item d-flex align-items-center">
+              <span data-purecounter-start="0" data-purecounter-end="2" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>Events Organize</strong> by Our Club.</p>
+            </div><!-- End Stats Item -->
+
+            <div class="stats-item d-flex align-items-center">
+              <span data-purecounter-start="0" data-purecounter-end="5" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>Hours Of Support</strong> spended for members.</p>
+            </div><!-- End Stats Item -->
+
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Stats Counter Section -->
+
+    <!-- ======= Our Goals Section ======= -->
+    <section id="why-us" class="why-us sections-bg">
+      <div class="container-fluid" data-aos="fade-up">
+    
+        <div class="row">
+    
+          <div class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch  order-2 order-lg-1">
+    
+            <div class="content">
+              <h3>PBS IoT and Robotics Club Goals:</h3>
+              <p>
+                Our objectives are the driving force behind our club. They inspire our dedication to innovation, teamwork, and technological mastery.
+              </p>
+            </div>
+    
+            <div class="accordion-list">
+              <ul>
+                <li>
+                  <a data-bs-toggle="collapse" class="collapse" data-bs-target="#accordion-list-1"><span>01</span> Innovation and Design <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                  <div id="accordion-list-1" class="collapse show" data-bs-parent=".accordion-list">
+                    <p>
+                      We focus on pushing the boundaries of IoT and robotics, fostering an environment where design and innovation lead to the creation of advanced technology.
+                    </p>
+                  </div>
+                </li>
+    
+                <li>
+                  <a data-bs-toggle="collapse" data-bs-target="#accordion-list-2" class="collapsed"><span>02</span> Community Engagement <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                  <div id="accordion-list-2" class="collapse" data-bs-parent=".accordion-list">
+                    <p>
+                      Engaging with the community is key. We organize events and workshops to introduce robotics to the wider community and inspire future generations.
+                    </p>
+                  </div>
+                </li>
+    
+                <li>
+                  <a data-bs-toggle="collapse" data-bs-target="#accordion-list-3" class="collapsed"><span>03</span> Technical Skill Development <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                  <div id="accordion-list-3" class="collapse" data-bs-parent=".accordion-list">
+                    <p>
+                      Members have opportunities to develop their technical skills through hands-on projects, competitions, and collaboration with experienced mentors.
+                    </p>
+                  </div>
+                </li>
+    
+                <li>
+                  <a data-bs-toggle="collapse" data-bs-target="#accordion-list-4" class="collapsed"><span>04</span> Professional Networking <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                  <div id="accordion-list-4" class="collapse" data-bs-parent=".accordion-list">
+                    <p>
+                      We provide a platform for students to connect with industry professionals, opening doors to internships, job opportunities, and collaborative projects.
+                    </p>
+                  </div>
+                </li>
+    
+                <li>
+                  <a data-bs-toggle="collapse" data-bs-target="#accordion-list-5" class="collapsed"><span>05</span> Research and Development <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                  <div id="accordion-list-5" class="collapse" data-bs-parent=".accordion-list">
+                    <p>
+                      Our club encourages research in IoT and robotics to discover new possibilities and contribute valuable insights to the field of robotics.
+                    </p>
+                  </div>
+                </li>
+    
+              </ul>
+            </div>
+          </div>
+    
+          <div class="col-lg-5 align-items-stretch order-1 order-lg-2 img img-zoom" style='background-image: url("assets/img/roboco-us.png");' data-aos="zoom-in" data-aos-delay="150">&nbsp;</div>
+    </div>
+  </div>
+</section>
+
+   
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>Contact</h2>
+          <p>If you have any questions or would like to join the PBS IoT and Robotics Club, please feel free to reach out to us:</p>
+        </div>
+
+        <div class="row gx-lg-0 gy-4">
+
+          <div class="col-lg-4">
+
+            <div class="info-container d-flex flex-column align-items-center justify-content-center">
+              <div class="info-item d-flex">
+                <i class="bi bi-geo-alt flex-shrink-0"></i>
+                <div>
+                  <h4>Location:</h4>
+                  <p>Thapagaun, Baneshwor, Ktm 44700</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="info-item d-flex">
+                <i class="bi bi-envelope flex-shrink-0"></i>
+                <div>
+                  <h4>Email:</h4>
+                  <p>info@pbsIoTrobotics.edu.np</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="info-item d-flex">
+                <i class="bi bi-phone flex-shrink-0"></i>
+                <div>
+                  <h4>Call:</h4>
+                  <p>+977 9828137850</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="info-item d-flex">
+                <i class="bi bi-clock flex-shrink-0"></i>
+                <div>
+                  <h4>Open Hours:</h4>
+                  <p>Mon-Sat: 11AM - 23PM</p>
+                </div>
+              </div><!-- End Info Item -->
+            </div>
+
+          </div>
+
+          <div class="col-lg-8">
+            <form action="http://localhost:8080/submit" method="post" role="form" class="php-email-form">
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="col-md-6 form-group mt-3 mt-md-0">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                </div>
+              </div>
+              <div class="form-group mt-3">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+              </div>
+              <div class="form-group mt-3">
+                <textarea class="form-control" name="message" rows="7" placeholder="Message" required></textarea>
+              </div>
+              <div class="my-3">
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="text-center"><button type="submit">Send Message</button></div>
+            </form>
+          </div><!-- End Contact Form -->
+        </div>
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  
+    <!-- ======= Footer ======= -->
+    <footer id="footer" class="footer">
+
+      <div class="container">
+          <div class="row gy-4">
+              <div class="col-lg-5 col-md-12 footer-info">
+                  <a href="index.html" class="logo d-flex align-items-center">
+                      <span>PBS Iot and Robotics Club</span>
+                  </a>
+                  <p>At PBS IoT and Robotics Club, we are committed to inspiring and nurturing enthusiasts in the world of IoT and robotics. Dive into our resources, events, and community to expand your understanding and abilities in this innovative field. Join us in driving the future of technology and robotics!</p>
+                  <div class="social-links d-flex mt-4">
+                      <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+                      <a href="https://www.facebook.com/pbscybsec" class="facebook"><i class="bi bi-facebook"></i></a>
+                      <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+                      <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+                  </div>
+              </div>
+  
+              <div class="col-lg-2 col-6 footer-links">
+                  <h4>Useful Links</h4>
+                  <ul>
+                      <li><a href="#hero">Home</a></li>
+                      <li><a href="#about">About us</a></li>
+                      <li><a href="#why-us">Why Us?</a></li>
+                      <li><a href="#resources">Learning Resources</a></li>
+                      <li><a href="#Projects/Events">Projects/Events</a></li>
+                      <li><a href="blog.html">Blog</a></li>
+                  </ul>
+              </div>
+  
+              <div class="col-lg-2 col-6 footer-links">
+                  <h4>Our Goals</h4>
+                  <ul>
+                      <li><a href="#">Innovate</a></li>
+                      <li><a href="#">Collaborate</a></li>
+                      <li><a href="#">Build</a></li>
+                      <li><a href="#">Explore Technology</a></li>
+                      <li><a href="#">Compete</a></li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+  
+      <div class="container mt-4">
+          <div class="copyright">
+              &copy; Copyright <strong><span>PBS Iot and Robotics  Club</span></strong>. All Rights Reserved
+          </div>
+          <div class="credits">
+              Crafted by <a href="https://aryanstha.me/">Aryanstha</a> & <a href="https://kanxu.vercel.app/">Serina</a>
+          </div>
+      </div>
+  
+  </footer>
+    <!-- End Footer -->
+    <!-- End Footer -->
+  <!-- End Footer -->
+
+  <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <div id="preloader"></div>
+     <!-- End Preloader -->
+  <!-- Messenger Chat Plugin Code -->
+  <div id="fb-root"></div>
+
+  <!-- Your Chat Plugin code -->
+  <div id="fb-customer-chat" class="fb-customerchat">
+  </div>
+
+  <script>
+    var chatbox = document.getElementById('fb-customer-chat');
+    chatbox.setAttribute("page_id", "276427919892722");
+    chatbox.setAttribute("attribution", "biz_inbox");
+  </script>
+
+  <!-- Your SDK code -->
+  <script>
+    window.fbAsyncInit = function() {
+      FB.init({
+        xfbml            : true,
+        version          : 'v18.0'
+      });
+    };
+
+    (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+  </script>
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+<script src="assets/js/form.js"></script>
+
+</body>
+
+</html>
